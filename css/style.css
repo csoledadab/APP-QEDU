@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Comic Neue', cursive;
-    background-color: #e67fe2;
+    background-color: #8774c3;
     color: #242424;
     line-height: 1.6;
     padding: 20px;
@@ -21,7 +21,7 @@ body {
 /* Encabezado principal */
 h1 {
     text-align: center;
-    color: #8b4ac9;
+    color: #f0f0f0;
     margin-bottom: 20px;
 }
 
@@ -38,14 +38,15 @@ select {
     padding: 10px;
     margin-top: 8px;
     margin-bottom: 20px;
-    border: 1px solid #7098f7;
+    border: 1px solid #6f0098;
+    background-color: #6d59ac;
     border-radius: 5px;
     font-size: 1em;
 }
 
 /* Estilo del botón */
 button {
-    background-color: #f4ffc6;
+    background-color:#8307a285;
     color: rgb(0, 0, 0);
     border: none;
     padding: 12px 20px;
@@ -56,7 +57,7 @@ button {
 }
 
 button:hover {
-    background-color: #f5ffc9;
+    background-color: #d654f7;
 }
 
 /* Estilo del div donde se muestra la información */
