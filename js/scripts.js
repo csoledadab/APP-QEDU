@@ -15,6 +15,8 @@ window.addEventListener('DOMContentLoaded', async (event)=>{
     }
 
     const data= await leerexcel('../excel/Hoja de datos.xlsx');
+    const divcarga= document.getElementById("carga");
+    divcarga.style.display= "none";
     const desplegable1= document.getElementById("carrera");
     data.carreras.forEach(function(opcion){
         const elementonuevo= document.createElement("option");
