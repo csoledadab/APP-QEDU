@@ -45,7 +45,7 @@ select {
 
 /* Estilo del botón */
 button {
-    background-color: #e5f892;
+    background-color: #f4ffc6;
     color: rgb(0, 0, 0);
     border: none;
     padding: 12px 20px;
@@ -56,7 +56,7 @@ button {
 }
 
 button:hover {
-    background-color: #e5f892;
+    background-color: #f5ffc9;
 }
 
 /* Estilo del div donde se muestra la información */
